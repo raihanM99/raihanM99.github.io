@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Pacifico&family=Poppins:wght@100;200;300;400;700&display=swap');
+
+nav {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav a.navbar-brand {
+  font-family: 'Pacifico';
+  font-weight: 400;
+}
+
+nav a.navbar-brand span {
+  color: #44eabb;
+}
+
+nav ul li a.btn-mintz {
+  background-color: #44eabb;
+  color: #080e2c !important;
+  transition: .4s;
+}
+
+nav ul li a.btn-mintz:hover {
+  background-color: transparent;
+  border: 1px solid #44eabb;
+  color: #44eabb !important;
+  transition: .5s;
+}
+
+.jumbotron {
+  padding-top: 130px;
+  background-color: #f3fdfb;
+}
+
+.jumbotron img {
+  clip-path: circle();
+  background-color: #d8e8e4;
+  width: 170px;
+}
+
+.jumbotron h1 {
+  font-family: 'Poppins';
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.jumbotron p {
+  font-family: 'Poppins';
+  font-weight: 200;
+  color: #080e2c;
+}
+
+section#about {
+  background-color: #d8e8e4;
+}
+
+section#about p, section#portfolio p, section#sertificate p  {
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+section#about h2, section#portfolio h2, section#sertificate h2 {
+  color: #080e2c;
+}
+
+section#portfolio a {
+  text-decoration: none;
+  transition: .4s;
+}
+
+section#portfolio a:hover {
+  color: #44eabb;
+  transition: .5s;
+}
+
+section#portfolio {
+  background-color: #f3fdfb;
+}
+
+section#sertificate {
+  background-color: #d8e8e4;
+}
+
+footer {
+  background-color: #080e2c;
+  padding: 20px;
+  color: #44eabb;
+  text-align: center;
+}
+
+footer span {
+  color: white;
+  font-family: 'Pacifico';
+}
+
+@media (max-width: 574px) {
+  nav, nav a.navbar-brand {
+    font-size: 12px;
+  }
+
+  button.navbar-toggler {
+    
+  }
+
+  span.navbar-toggler-icon {
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+  }
+
+  .jumbotron {
+    padding-top: 80px;
+  }
+
+  .jumbotron img {
+    width: 120px;
+  }
+
+  .jumbotron h1 {
+    font-size: 22px;
+  }
+
+  .jumbotron p {
+    font-size: 10px;
+  }
+
+  section#about h2, section#portfolio h2, section#sertificate h2 {
+    font-size: 18px;
+  }
+
+  section#about p, section#portfolio p, section#sertificate p {
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+
+
+
+
+
+  section#portfolio .row:nth-child(2) .card {
+    max-width: 400px;
+  }
+
+  section#portfolio .row:nth-child(2) .col-md-4 {
+    max-width: 400px;
+  }
+
+  section#sertificate .row:nth-child(2) .card {
+    max-width: 400px;
+  }
+
+  section#sertificate .row:nth-child(2) .col-md-4 {
+    max-width: 400px;
+  }
+}
